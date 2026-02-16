@@ -60,4 +60,16 @@ export enum AppScreen {
   SETTINGS = 'settings'
 }
 
-export type DashboardTab = 'publish' | 'products' | 'orders' | 'profile' | 'performance';
+export interface ProductContent {
+  media: string[]; // base64 strings
+  nativeAudio: string | null; // base64 string
+  translatedText: string;
+  productDetails: {
+    name: string;
+    category: string;
+    price: string;
+    quantity: string;
+  };
+}
+
+export type DashboardTab = 'publish' | 'products' | 'orders' | 'profile' | 'performance' | 'social';
