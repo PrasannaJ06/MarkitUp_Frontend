@@ -1,7 +1,0 @@
-Flask
-Flask-PyMongo
-Flask-JWT-Extended
-bcrypt
-python-dotenv
-Flask-CORS
-gunicorn
