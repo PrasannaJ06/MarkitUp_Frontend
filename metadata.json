@@ -1,0 +1,8 @@
+{
+  "name": "MarkitUp AI",
+  "description": "An AI-powered smart seller tool for automated product descriptions, market price analysis, and multilingual support using Gemini.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
